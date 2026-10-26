@@ -1,0 +1,33 @@
+{
+    "team_name": "Team Name",
+    "students": [
+        {
+            "student_id": "k12204033",
+            "first_name": "Sonja",
+            "last_name": "Topf",
+            "email": "sonja.a.topf@gmail.com",
+            "github_user": "hiitsmeme"
+        },
+        {
+            "student_id": "",
+            "first_name": "Sebastian",
+            "last_name": "Kranzinger",
+            "email": "",
+            "github_user": ""
+        },
+        {
+            "student_id": "K12633217",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "github_user": ""
+        },
+        {
+            "student_id": "k12633223",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "github_user": ""
+        }
+    ]
+}

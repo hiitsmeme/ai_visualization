@@ -1,0 +1,25 @@
+{
+    "team_name": "",
+    "students": [
+        {
+            "first_name": "Sonja",
+            "last_name": "Topf",
+            "workload": 0.25
+        },
+        {
+            "first_name": "Sebastian",
+            "last_name": "Kranzinger",
+            "workload": 0.25
+        },
+        {
+            "first_name": "",
+            "last_name": "",
+            "workload": 0.25
+        },
+        {
+            "first_name": "",
+            "last_name": "",
+            "workload": 0.25
+        }
+    ]
+}
