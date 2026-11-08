@@ -1,0 +1,60 @@
+? asked to improve code
+Fixing grammar a->an for words starting with vowel
+Sugested to study one occupation in depth, Check whether age changes the results, bootstraping to find if the male are engineer labeled on luck or not,investigate bootstrap results, Compare people within similar age and ethnicity groups
+interpretations on the todos
+
+
+My recommended improvements, in order
+Improvement checklist
+
+
+[ ] Test changing the occupation list
+
+Shows why the same face can get different job labels.
+
+
+[ ] Study when prompt changes cause switches
+
+Explains why some predictions are stable and others change.
+
+
+[ ] Investigate one bias across subgroups
+
+Go deeper on teacher, athlete, and engineer.
+
+
+[ ] Add another reliability check
+
+Use a separate set of pictures to confirm discoveries.
+
+
+[ ] Strengthen the glasses experiment
+
+Check small groups and uncertain labels.
+
+
+[ ] Go deeper into embedding clusters
+
+Find meaningful subgroups inside the PCA picture.
+
+
+
+
+TODO
+!!!Worth investigating why females have 48.0 on teachers and males 33.3 on athlete gender based comparison chart
+and also for etnicityLook for questions such as:
+- Is "scientist" selected more often for some groups?
+- Is "athlete" selected more often for some groups?
+- Do different groups show very similar results for certain jobs?
+- Are the differences large or small?
+!!!interpretation for Check if changing the words changes CLIP's answers This is another useful experiment because CLIP compares images against text.
+!!!for embedding map 
+
+Ask yourself:
+- Do images with the same gender label form visible groups?
+- Do the occupation text points appear in different areas?
+- Are the text points far away from the image points?
+- Is there overlap between the groups?
+Remember that PCA throws away a lot of information. Points looking close in this flat chart do not necessarily mean they are close in the original 512-dimensional space.
+
+!!!introduce the glasses column so to see if the model is biased on glasses
