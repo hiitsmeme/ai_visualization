@@ -1,0 +1,100 @@
+At first, we asked the LLM to do a "crash course" on useful statistical concepts that we should consider for this project. The following paragraphs are the prompts we gave and the general description of the result.
+
+Prompt:
+Create a pandas DataFrame with gender, age and ethnicity for each image and show how many people belong to each category? Are the groups equally represented?
+---> we used the code and insights to analyse demographic distribution
+
+Prompt:
+Load the CLIP model using hugging face transformers. https://huggingface.co/openai/clip-vit-base-patch32
+I dont want to train or finetune. I want to test the model using faces images and text input regarding occupations. 
+---> code generated
+
+Prompt:
+I want to investigate whether CLIP associates certain faces with specific occupations. Suggest a small list of occupations that reveal stereotypes of gender and ethnicity. Generate text prompts like "a portrait photo of a/an [occupation]"
+---> code generated
+
+
+Prompt: 
+Write test code for the first image.
+---> code generated
+
+Prompt:
+
+The test on one image works. Now I want to run it on all validation images. calculate and normalize the embeddings for every image and prompt to get a better view of the model. Save the results so we don't have to run it again to access them.
+---> code generated
+
+Prompt:
+
+Choose the best visualization for viewing gender - job associations in CLIP. Use pandas and seaborn for the graphics. Tell me how to interpret the result.
+---> code generated, instruction given
+
+Prompt:
+Can we do the same analysis for the ethnicity groups?
+---> code generated
+
+Prompt:
+The ethnicity heatmap shows that CLIP predicts athlete much more often for Black faces than Indian faces.
+Does this happen because the groups have different proportions of men and women, since athlete is also predicted more for male faces? Can we compare ethnicity groups separately for males and females?
+Also, scientist is almost never chosen. Does that mean CLIP doesn't associate anyone with scientist, or could its similarity score be high without being the highest of the eight jobs?
+---> code generated
+
+Prompt:
+I want to investigate the athlete difference more deeply.
+Compare Black and Indian faces while also separating them by age and gender.
+Create a plot that shows the percentage classified as athlete in each age group, with separate lines for the ethnicity groups and separate plots for males and females. Please include the number of images in each subgroup and avoid making conclusions from very small groups.
+Help me understand whether the difference is consistent across ages or concentrated in particular groups.
+---> code generated
+
+Prompt:
+Plot how frequently engineer is predicted for each age group, with separate lines for male and female faces.
+---> code generated
+
+Prompt:
+Explain where the difference is largest and whether the pattern suggests that age and gender are interacting.
+---> code generated
+
+
+Prompt:
+CLIP compares face images with text descriptions, so maybe the exact wording of the descriptions affects its predictions.
+Compare these three prompt styles:
+a portrait photo of a [job]
+a photo of a person whose job is a [job]
+a photo of someone working as a [job]
+Reuse the saved image embeddings, generate new text embeddings, calculate how many predictions change, and create a bar chart showing how engineer predictions change by gender.
+---> code generated
+
+Prompt:
+Can you extend the analysis to all eight occupations and pay attention to the wording and its influence too.
+---> code generated
+
+Prompt:
+When inspecting the images with the highest engineer similarity, I noticed that several people wear glasses.
+I want to test whether CLIP associates glasses with occupations like engineer, scientist or professor.
+But FairFace doesn't have a column indicating whether someone wears glasses.
+Help me create a small manual labeling experiment: I want to randomly select 30 images from each gender and ethnicity combination, so 420 images in total.
+I'd like a simple Jupyter interface that shows one image at a time with buttons for Yes, No and Unsure.
+Please save the labels automatically after each click so I don't lose the work if I restart the notebook.
+---> code generated
+
+Prompt:
+I've finished labeling the glasses images and the results are stored in glasses_labels.csv.
+Can you merge the manual labels with my existing CLIP predictions and compare occupation selection percentages for faces with and without glasses?
+Create a heatmap and calculate the percentage-point differences for professor, engineer, scientist, teacher and athlete.
+---> code generated
+
+Prompt:
+Please compare the demographic distributions of the glasses and no-glasses groups.
+---> helpful comparison
+
+Prompt:
+The glasses association seems to remain for several jobs even after controlling for demographic labels. Check if it has the same effect for male and female faces.	
+Calculate occupation prediction percentages separately for four groups: male with glasses, male without glasses, female with glasses, and female without glasses. Make separate bar charts for each gender and help me identify any surprising differences. Also include the sample sizes.
+---> code generated
+
+
+Prompt:
+Write a nice conclusion: summarise the most important findings using actual results from my experiments.
+---> summary generated
+
+
+
