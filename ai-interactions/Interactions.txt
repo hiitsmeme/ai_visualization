@@ -96,5 +96,21 @@ Prompt:
 Write a nice conclusion: summarise the most important findings using actual results from my experiments.
 ---> summary generated
 
+One of the most important aspects of using AI was that it helped us structure our analysis as an iterative process rather than a fixed sequence of experiments.
 
+At first, our interactions mostly involved generating code for loading the dataset, running CLIP, and producing basic visualizations. As we obtained results, our input became more analytical and we focused on understanding patterns.
+
+Several examples illustrate this process:
+
+Gender and ethnicity heatmaps: The initial visualizations revealed differences in occupation associations. Instead of treating these as final findings, we used them to identify occupations that deserved deeper investigation.
+
+Athlete predictions: After noticing the striking differences in profession assignment between Black and Indian faces, we introduced gender and age comparisons to examine whether the pattern persisted across demographic subgroups.
+
+Similarity scores: The low frequency of scientist predictions led us to examine actual similarity scores, helping us understand that top-choice classification can hide relevant information.
+
+Prompt wording: We investigated whether changing only the occupation descriptions could alter the results. The observed sensitivity led us to expand the experiment to all occupations.
+
+Glasses hypothesis: Our observation of glasses in images that had a high similarity score for the Engineer profession motivated the creation of a new manually labeled dataset - with the help of AI. The initial results then motivated demographic comparisons and more detailed subgroup analysis.
+
+Overall, AI was especially useful for translating our analytical questions into code and suggesting ways to visualize or compare the relevant data. However, the direction of the investigation was also strongly influenced by our own observations and decisions.
 
