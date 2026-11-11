@@ -1,116 +1,100 @@
-At first, we asked the LLM to do a "crash course" on useful statistical concepts that we should consider for this project. The following paragraphs are the prompts we gave and the general description of the result.
+Load FairFace, combine the training and validation images, and keep ages 20 and up. Create a pandas DataFrame with gender, age and ethnicity for each image. How many people belong to each category? Are the groups equally represented?
 
-Prompt:
-Create a pandas DataFrame with gender, age and ethnicity for each image and show how many people belong to each category? Are the groups equally represented?
----> we used the code and insights to analyse demographic distribution
+---> we used the code to check the distribution of the 73,659 faces. The age groups varied a lot in size, so we used within-group percentages and included subgroup counts when interpreting the plots.
 
-Prompt:
-Load the CLIP model using hugging face transformers. https://huggingface.co/openai/clip-vit-base-patch32
-I dont want to train or finetune. I want to test the model using faces images and text input regarding occupations. 
----> code generated
+Prompt
 
-Prompt:
-I want to investigate whether CLIP associates certain faces with specific occupations. Suggest a small list of occupations that reveal stereotypes of gender and ethnicity. Generate text prompts like "a portrait photo of a/an [occupation]"
----> code generated
+Load the CLIP model using Hugging Face Transformers. I dont want to train or finetune. I want to test the model using face images and text inputs about occupations.
 
+---> we used the pretrained openai/clip-vit-base-patch32 model and kept it fixed for all the experiments.
 
-Prompt: 
-Write test code for the first image.
----> code generated
+Prompt
 
-Prompt:
+Suggest a small list of occupations for comparing gender and ethnicity associations. Generate prompts like “a portrait photo of a/an [occupation]” and write test code for the first image.
 
-The test on one image works. Now I want to run it on all validation images. calculate and normalize the embeddings for every image and prompt to get a better view of the model. Save the results so we don't have to run it again to access them.
----> code generated
+---> we kept eight occupations (doctor, nurse, engineer, scientist, professor, teacher, artist and athlete). The test on one image let us check that CLIP returned a score for each occupation and that the code picked the highest one.
 
-Prompt:
+Prompt
 
-Choose the best visualization for viewing gender - job associations in CLIP. Use pandas and seaborn for the graphics. Tell me how to interpret the result.
----> code generated, instruction given
+The test on one image works. Can we score all the adult images in batches and save the results so we can use them again? This is Phase 1, so use CLIP's output scores and keep it as a black box.
 
-Prompt:
-Can we do the same analysis for the ethnicity groups?
----> code generated
+---> we used logits_per_image to get the scores directly from CLIP. We saved the portrait-prompt scores and the top choices in clip_output_scores.csv so we could reuse them for the PCA and other comparisons.
+Demographic comparisons
+Prompt
 
-Prompt:
-The ethnicity heatmap shows that CLIP predicts athlete much more often for Black faces than Indian faces.
-Does this happen because the groups have different proportions of men and women, since athlete is also predicted more for male faces? Can we compare ethnicity groups separately for males and females?
-Also, scientist is almost never chosen. Does that mean CLIP doesn't associate anyone with scientist, or could its similarity score be high without being the highest of the eight jobs?
----> code generated
+Choose a visualization for gender–job associations in CLIP using pandas and seaborn. Tell me how to interpret the result. Can we do the same for the ethnicity groups?
 
-Prompt:
-I want to investigate the athlete difference more deeply.
-Compare Black and Indian faces while also separating them by age and gender.
-Create a plot that shows the percentage classified as athlete in each age group, with separate lines for the ethnicity groups and separate plots for males and females. Please include the number of images in each subgroup and avoid making conclusions from very small groups.
-Help me understand whether the difference is consistent across ages or concentrated in particular groups.
----> code generated
+---> we kept the heatmaps because they made it easy to compare the eight occupations across groups. Each cell showed the percentage of faces in that group for which CLIP selected the occupation.
 
-Prompt:
-Plot how frequently engineer is predicted for each age group, with separate lines for male and female faces.
----> code generated
+Prompt
 
-Prompt:
-Explain where the difference is largest and whether the pattern suggests that age and gender are interacting.
----> code generated
+CLIP predicts athlete more often for Black faces than Indian faces. Could it be because the groups have different proportions of men and women? Also, could scientist have a high similarity score without being the highest of the eight jobs?
 
+---> we compared the athlete rates separately for male- and female-labeled faces. The difference appeared in both groups, so we looked at age next. We also compared the mean scientist score with its selection rate, since the winning occupation depends on how all eight scores rank for a face.
 
-Prompt:
-CLIP compares face images with text descriptions, so maybe the exact wording of the descriptions affects its predictions.
-Compare these three prompt styles:
-a portrait photo of a [job]
-a photo of a person whose job is a [job]
-a photo of someone working as a [job]
-Reuse the saved image embeddings, generate new text embeddings, calculate how many predictions change, and create a bar chart showing how engineer predictions change by gender.
----> code generated
+Prompt
 
-Prompt:
-Can you extend the analysis to all eight occupations and pay attention to the wording and its influence too.
----> code generated
+Compare Black and Indian faces by age and gender. Plot the percentage selected as athlete and include the number of images in each subgroup. Is the difference consistent across ages?
 
-Prompt:
-When inspecting the images with the highest engineer similarity, I noticed that several people wear glasses.
-I want to test whether CLIP associates glasses with occupations like engineer, scientist or professor.
-But FairFace doesn't have a column indicating whether someone wears glasses.
-Help me create a small manual labeling experiment: I want to randomly select 30 images from each gender and ethnicity combination, so 420 images in total.
-I'd like a simple Jupyter interface that shows one image at a time with buttons for Yes, No and Unsure.
-Please save the labels automatically after each click so I don't lose the work if I restart the notebook.
----> code generated
+---> we kept the separate plots and counts. The difference appeared across the age groups and was largest among younger faces. We read the oldest age groups more cautiously because they contained fewer faces.
 
-Prompt:
-I've finished labeling the glasses images and the results are stored in glasses_labels.csv.
-Can you merge the manual labels with my existing CLIP predictions and compare occupation selection percentages for faces with and without glasses?
-Create a heatmap and calculate the percentage-point differences for professor, engineer, scientist, teacher and athlete.
----> code generated
+Prompt
 
-Prompt:
-Please compare the demographic distributions of the glasses and no-glasses groups.
----> helpful comparison
+Plot how often engineer is predicted for each age group, with separate lines for male and female faces. Where is the difference largest?
 
-Prompt:
-The glasses association seems to remain for several jobs even after controlling for demographic labels. Check if it has the same effect for male and female faces.	
-Calculate occupation prediction percentages separately for four groups: male with glasses, male without glasses, female with glasses, and female without glasses. Make separate bar charts for each gender and help me identify any surprising differences. Also include the sample sizes.
----> code generated
+---> we used the plot to see that the gap was widest at ages 30–39. We used a bootstrap interval for the overall gap and a weighted comparison within age and ethnicity groups to see whether the gap persisted within those groups.
+Wording, available occupations and PCA
+Prompt
 
+Does the exact wording affect CLIP's predictions? Compare “a portrait photo of a [job]”, “a photo of a person whose job is a [job]” and “a photo of someone working as a [job]”. Calculate how many predictions change and plot engineer selection by gender.
 
-Prompt:
-Write a nice conclusion: summarise the most important findings using actual results from my experiments.
----> summary generated
+---> we kept all three templates and used the same faces and occupations for each. We scored the 24 prompts in batches, then calculated how often the top choice changed from the portrait prompt. This let us compare the effect of changing the wording while keeping the images fixed.
 
-One of the most important aspects of using AI was that it helped us structure our analysis as an iterative process rather than a fixed sequence of experiments.
+Prompt
 
-At first, our interactions mostly involved generating code for loading the dataset, running CLIP, and producing basic visualizations. As we obtained results, our input became more analytical and we focused on understanding patterns.
+Can you extend the wording analysis to all eight occupations and check whether close rankings are more likely to change?
 
-Several examples illustrate this process:
+---> we used tables for all eight occupations because the engineer plot could only show one part of the change. We grouped faces by the gap between their two highest portrait scores and saw that the smallest-gap group switched most often.
 
-Gender and ethnicity heatmaps: The initial visualizations revealed differences in occupation associations. Instead of treating these as final findings, we used them to identify occupations that deserved deeper investigation.
+Prompt
 
-Athlete predictions: After noticing the striking differences in profession assignment between Black and Indian faces, we introduced gender and age comparisons to examine whether the pattern persisted across demographic subgroups.
+Can we check how teacher selection changes if we remove nurse or athlete from the list?
 
-Similarity scores: The low frequency of scientist predictions led us to examine actual similarity scores, helping us understand that top-choice classification can hide relevant information.
+---> we used the same portrait scores and chose the highest-scoring job still available. The teacher gender gap grew from 33.60 to 50.81 percentage points when both options were removed. This helped us see how much the measured gap depended on the choices we gave CLIP.
 
-Prompt wording: We investigated whether changing only the occupation descriptions could alter the results. The observed sensitivity led us to expand the experiment to all occupations.
+Prompt
 
-Glasses hypothesis: Our observation of glasses in images that had a high similarity score for the Engineer profession motivated the creation of a new manually labeled dataset - with the help of AI. The initial results then motivated demographic comparisons and more detailed subgroup analysis.
+Can I use PCA for Phase 1? Make a plot from the eight occupation output scores and help me compare the different regions.
 
-Overall, AI was especially useful for translating our analytical questions into code and suggesting ways to visualize or compare the relevant data. However, the direction of the investigation was also strongly influenced by our own observations and decisions.
+---> we used PCA on the eight scores because they were observable outputs. We colored the points by gender and by top occupation, then compared the PC1 bands using demographic counts and score profiles. Athlete won less often in the higher bands. Its mean score rose, and the mean scores of several competing occupations rose more.
 
+Glasses experiment
+Prompt
+
+When I look at the faces with the highest engineer scores, several people wear glasses. Help me set up a small manual labeling experiment in Jupyter with Yes, No and Unsure buttons. Save after each click.
+
+---> we used the labeling interface to save the annotations in glasses_labels.csv.
+
+Prompt
+
+Can you run the glasses experiment from the exact image IDs in glasses_labels.csv? Compare faces with and without glasses in a heatmap and calculate the percentage-point differences for professor, engineer, scientist, teacher and athlete.
+
+---> we used the IDs in the file to select the 314 Yes/No faces directly and checked that the IDs matched the adult FairFace data. We showed the counts with the heatmap (57 Yes and 257 No). That check mattered because each percentage needs scored faces in its group.
+
+Prompt
+
+Please compare the demographic distributions of the glasses and no-glasses groups. Can we compare the similarity scores while accounting for age, gender and ethnicity?
+
+---> we found differences in the demographic mix, so we kept the adjusted score comparison alongside the heatmap. Athlete was selected much less often with glasses, and the interval for its adjusted score difference included zero. The two results helped us distinguish a change in the winning occupation from a change in the score for that prompt.
+
+Prompt
+
+Does the glasses association look the same for male and female faces? Plot male with glasses, male without glasses, female with glasses and female without glasses. Include the sample sizes.
+
+---> we used the four groups to see which patterns the pooled rates hid. For example, teacher was selected for 57.9% of female-labeled faces with glasses and 30.4% without. We kept the counts next to the rates because the glasses group contained only 19 female-labeled faces and 38 male-labeled faces.
+Interpreting the results
+Prompt
+
+Write the interpretations in the Markdown boxes and summarize the most important findings in a conclusion. Use the actual results from my experiments.
+
+---> we used the AI draft to organize the explanations and checked the claims against the saved tables and plots. For example, we checked the 31.52-point engineer gap and the 85.4% of score variance captured by the two PCA axes. We described the findings as associations for these faces, prompts and occupation choices.
