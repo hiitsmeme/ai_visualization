@@ -1,0 +1,2 @@
+PairB/clip_image_embeddings.npy filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text

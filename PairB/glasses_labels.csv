@@ -1,421 +1,316 @@
 image_index,gender,race,age,glasses
-1782,Female,Indian,30-39,No
-5235,Male,Southeast Asian,40-49,No
-4189,Male,Indian,more than 70,No
-696,Female,White,20-29,No
-9454,Male,White,3-9,No
-3912,Female,East Asian,40-49,No
-5057,Female,Indian,30-39,No
-6583,Female,Indian,10-19,No
-10411,Male,Black,30-39,No
-4295,Female,East Asian,40-49,Yes
-8007,Female,East Asian,30-39,No
-1283,Male,East Asian,30-39,Yes
-591,Female,White,50-59,No
-1749,Male,East Asian,more than 70,No
-8100,Female,Southeast Asian,0-2,No
-3275,Male,White,20-29,No
-8722,Female,Black,10-19,No
-10193,Female,Middle Eastern,30-39,No
-5078,Female,Latino_Hispanic,30-39,Yes
-5221,Male,Latino_Hispanic,50-59,No
-171,Female,Latino_Hispanic,20-29,No
-7372,Male,Latino_Hispanic,0-2,No
-10819,Male,Southeast Asian,10-19,Yes
-9303,Male,Latino_Hispanic,30-39,No
-10750,Male,Black,30-39,No
-1594,Male,Southeast Asian,20-29,Yes
-8222,Male,Black,40-49,No
-1191,Male,Middle Eastern,30-39,No
-772,Male,Middle Eastern,30-39,No
-2376,Female,East Asian,20-29,No
-2372,Female,Southeast Asian,10-19,No
-5583,Male,East Asian,10-19,No
-7302,Female,Latino_Hispanic,20-29,No
-3672,Female,Latino_Hispanic,30-39,No
-6029,Male,Southeast Asian,30-39,No
-5594,Female,Latino_Hispanic,30-39,No
-7397,Male,Latino_Hispanic,50-59,No
-5830,Male,Black,20-29,No
-7351,Male,Indian,20-29,Yes
-8638,Female,Middle Eastern,more than 70,No
-5212,Female,East Asian,10-19,No
-4737,Female,East Asian,3-9,No
-1871,Male,White,30-39,No
-615,Male,Black,30-39,Yes
-83,Male,East Asian,40-49,No
-2055,Female,White,40-49,Yes
-2723,Female,Indian,20-29,No
-9150,Male,Middle Eastern,30-39,Yes
-6727,Female,White,20-29,No
-187,Female,Black,3-9,No
-8806,Female,East Asian,30-39,No
-182,Female,Southeast Asian,30-39,No
-9981,Female,Black,30-39,No
-706,Female,Black,20-29,No
-2597,Male,White,20-29,No
-7350,Male,Middle Eastern,20-29,No
-6805,Male,Middle Eastern,30-39,No
-3297,Male,Middle Eastern,50-59,No
-266,Female,East Asian,3-9,No
-4484,Female,East Asian,20-29,No
-8938,Male,Southeast Asian,10-19,No
-4241,Male,East Asian,30-39,Yes
-9560,Female,Black,20-29,No
-4869,Female,White,3-9,No
-9452,Male,Indian,10-19,Yes
-3483,Female,White,20-29,No
-7678,Female,Middle Eastern,20-29,No
-9098,Male,Black,40-49,Yes
-10491,Male,Indian,30-39,No
-2309,Female,White,10-19,No
-9480,Female,Indian,50-59,No
-1985,Female,White,0-2,No
-9123,Male,Middle Eastern,30-39,No
-221,Male,Middle Eastern,50-59,Yes
-7848,Female,Black,50-59,No
-7216,Male,Black,30-39,No
-5242,Male,Middle Eastern,30-39,No
-3875,Male,East Asian,30-39,No
-3562,Male,White,30-39,No
-9357,Male,White,20-29,No
-10559,Male,Black,40-49,No
-8017,Male,White,3-9,No
-7721,Female,Black,3-9,No
-8966,Female,Black,20-29,No
-94,Female,East Asian,50-59,No
-7460,Female,Indian,10-19,No
-6860,Male,Black,10-19,No
-9394,Female,East Asian,20-29,No
-379,Male,Middle Eastern,20-29,No
-2041,Female,White,20-29,No
-9681,Male,Southeast Asian,20-29,No
-3570,Male,Indian,3-9,No
-3650,Female,Middle Eastern,30-39,No
-5724,Female,Latino_Hispanic,10-19,No
-3495,Male,Latino_Hispanic,40-49,No
-9045,Female,Black,20-29,No
-8664,Male,Black,40-49,No
-3214,Male,Middle Eastern,40-49,No
-5224,Male,White,20-29,No
-622,Female,White,30-39,No
-9721,Female,Middle Eastern,10-19,No
-10238,Female,Black,40-49,Yes
-9530,Female,White,3-9,No
-1248,Female,Middle Eastern,20-29,No
-4436,Female,Southeast Asian,3-9,No
-8691,Female,Black,20-29,No
-10725,Female,Black,60-69,No
-3039,Male,White,3-9,No
-8620,Female,East Asian,3-9,No
-4578,Female,Latino_Hispanic,30-39,No
-1074,Male,Indian,20-29,No
-9393,Female,East Asian,20-29,No
-5218,Male,East Asian,20-29,No
-5847,Female,Southeast Asian,20-29,No
-394,Female,Southeast Asian,50-59,Yes
-8913,Female,Indian,50-59,No
-785,Female,Southeast Asian,20-29,No
-3568,Male,Southeast Asian,10-19,No
-3348,Female,White,50-59,No
-777,Female,Black,10-19,No
-7592,Female,Black,20-29,No
-1557,Female,Latino_Hispanic,10-19,No
-10279,Male,White,40-49,No
-390,Male,East Asian,20-29,No
-2481,Male,East Asian,3-9,Yes
-6246,Male,Southeast Asian,20-29,Yes
-8861,Female,Black,30-39,No
-3310,Female,Indian,30-39,No
-4372,Male,White,30-39,No
-2485,Male,East Asian,20-29,No
-4186,Male,East Asian,30-39,No
-2295,Male,Middle Eastern,40-49,No
-10619,Female,Middle Eastern,20-29,No
-8731,Female,Indian,20-29,No
-4343,Male,Indian,10-19,No
-7904,Female,White,10-19,No
-10765,Female,Southeast Asian,20-29,No
-9461,Male,Latino_Hispanic,50-59,Yes
-7437,Male,Indian,50-59,No
-647,Male,Middle Eastern,20-29,No
-2445,Male,East Asian,3-9,No
-3,Female,Latino_Hispanic,20-29,No
-1097,Female,Latino_Hispanic,30-39,No
-7394,Male,Indian,10-19,No
-7011,Female,Latino_Hispanic,20-29,No
-23,Female,East Asian,10-19,Yes
-6308,Male,Indian,40-49,No
-3987,Male,Indian,40-49,No
-9343,Female,East Asian,10-19,No
-7231,Female,Latino_Hispanic,20-29,No
-10942,Male,East Asian,60-69,No
-4489,Male,Latino_Hispanic,20-29,No
-2022,Female,Middle Eastern,0-2,No
-1678,Male,Latino_Hispanic,20-29,No
-877,Male,Southeast Asian,30-39,Yes
-4545,Female,White,10-19,No
-9420,Male,Southeast Asian,30-39,No
-5471,Female,White,30-39,No
-844,Female,Southeast Asian,20-29,No
-3527,Male,Southeast Asian,10-19,No
-829,Male,Black,3-9,No
-8300,Female,Indian,3-9,No
-1989,Male,Southeast Asian,30-39,No
-1313,Male,Indian,10-19,No
-8438,Male,Latino_Hispanic,40-49,No
-9345,Female,Southeast Asian,20-29,No
-1935,Male,Black,20-29,No
-4387,Male,East Asian,10-19,No
-5243,Male,Southeast Asian,10-19,No
-970,Female,Latino_Hispanic,20-29,No
-1650,Female,Black,10-19,No
-8571,Female,Southeast Asian,3-9,No
-819,Male,Middle Eastern,20-29,Yes
-8026,Male,Indian,40-49,No
-8906,Male,Indian,50-59,Yes
-4651,Female,Black,30-39,No
-2559,Male,Latino_Hispanic,3-9,No
-6429,Male,East Asian,30-39,Yes
-9846,Female,East Asian,20-29,Yes
-698,Male,White,30-39,No
-8639,Female,White,50-59,No
-203,Male,Indian,20-29,Yes
-7875,Male,White,10-19,No
-4761,Male,Latino_Hispanic,40-49,No
-5601,Female,Middle Eastern,20-29,No
-10828,Male,White,30-39,No
-5339,Male,White,3-9,No
-10929,Female,East Asian,20-29,No
-4037,Male,Latino_Hispanic,20-29,No
-7342,Male,Indian,30-39,Yes
-7410,Female,Latino_Hispanic,50-59,No
-7624,Female,Indian,20-29,No
-9911,Female,Black,30-39,No
-10609,Male,East Asian,30-39,No
-3560,Female,East Asian,30-39,Yes
-10836,Male,Latino_Hispanic,3-9,No
-5473,Female,Indian,50-59,Yes
-5707,Male,East Asian,3-9,No
-6325,Female,Indian,3-9,No
-9313,Female,Southeast Asian,20-29,Yes
-1166,Female,White,10-19,No
-8207,Male,East Asian,20-29,Yes
-10612,Male,Southeast Asian,50-59,No
-4144,Female,East Asian,30-39,No
-495,Female,Black,20-29,No
-8276,Male,Black,30-39,No
-6430,Female,Indian,10-19,No
-6644,Female,Indian,40-49,Yes
-5816,Male,Latino_Hispanic,10-19,No
-2444,Female,Latino_Hispanic,3-9,No
-9460,Female,Latino_Hispanic,10-19,No
-2562,Female,East Asian,20-29,No
-2849,Male,Southeast Asian,10-19,No
-6615,Male,White,20-29,No
-10361,Female,Middle Eastern,10-19,No
-10632,Female,Middle Eastern,3-9,No
-2158,Male,Southeast Asian,3-9,No
-1077,Female,Middle Eastern,3-9,No
-826,Female,Indian,3-9,No
-8290,Female,Indian,0-2,No
-9213,Female,Southeast Asian,20-29,No
-9655,Female,East Asian,20-29,No
-8269,Male,Southeast Asian,40-49,No
-8345,Male,Latino_Hispanic,30-39,No
-7542,Male,Latino_Hispanic,30-39,No
-3844,Male,Southeast Asian,3-9,No
-1060,Female,White,30-39,No
-6593,Male,Middle Eastern,30-39,No
-8784,Female,Southeast Asian,30-39,Yes
-6316,Female,Latino_Hispanic,3-9,No
-700,Male,Middle Eastern,20-29,No
-1488,Female,Southeast Asian,30-39,No
-10908,Male,Middle Eastern,20-29,No
-4793,Male,Middle Eastern,50-59,Yes
-8805,Female,Indian,20-29,No
-1310,Male,Black,40-49,No
-1828,Female,Black,30-39,No
-5939,Male,Middle Eastern,3-9,No
-180,Female,Latino_Hispanic,10-19,No
-1836,Female,Middle Eastern,20-29,No
-4111,Male,East Asian,40-49,No
-1250,Male,Indian,3-9,No
-9667,Female,Middle Eastern,20-29,No
-4333,Female,Southeast Asian,60-69,Yes
-5916,Male,Middle Eastern,30-39,Yes
-5731,Male,White,30-39,Yes
-2627,Male,East Asian,20-29,Yes
-7400,Female,White,30-39,No
-10823,Male,White,50-59,Yes
-4885,Male,White,50-59,Unsure
-2507,Female,Southeast Asian,20-29,No
-7937,Male,Latino_Hispanic,30-39,No
-4427,Female,White,20-29,No
-718,Female,Middle Eastern,40-49,No
-7822,Male,Indian,40-49,No
-9545,Female,White,20-29,No
-7629,Female,Indian,20-29,Yes
-933,Female,Latino_Hispanic,20-29,No
-8850,Male,Latino_Hispanic,3-9,No
-161,Male,East Asian,30-39,No
-3445,Female,Indian,10-19,No
-7890,Male,Latino_Hispanic,3-9,No
-10702,Male,Southeast Asian,20-29,No
-8493,Male,Middle Eastern,30-39,No
-4019,Female,Indian,20-29,No
-9696,Male,White,20-29,No
-5653,Male,East Asian,0-2,No
-1446,Female,Southeast Asian,20-29,No
-4320,Female,Indian,40-49,No
-2241,Male,White,50-59,No
-6980,Male,Black,20-29,No
-141,Female,White,20-29,Yes
-6630,Female,East Asian,40-49,No
-10215,Female,East Asian,20-29,No
-3893,Female,Middle Eastern,20-29,No
-8297,Female,Latino_Hispanic,10-19,No
-10356,Male,Indian,30-39,Yes
-6569,Female,Black,20-29,No
-5377,Male,Black,20-29,No
-8771,Female,Black,20-29,No
-10207,Male,Indian,30-39,No
-8566,Female,Indian,20-29,No
-3478,Male,Southeast Asian,3-9,No
-687,Female,Southeast Asian,20-29,No
-7753,Male,Latino_Hispanic,30-39,Yes
-5662,Male,East Asian,20-29,No
-655,Male,Black,40-49,Yes
-7832,Female,Middle Eastern,30-39,No
-5839,Female,Southeast Asian,20-29,No
-6935,Female,Southeast Asian,20-29,No
-6072,Male,Indian,50-59,Yes
-3972,Male,Black,30-39,No
-10862,Male,White,60-69,No
-10058,Female,Latino_Hispanic,20-29,No
-10331,Male,Middle Eastern,40-49,No
-3024,Female,Middle Eastern,20-29,No
-9122,Male,Southeast Asian,10-19,No
-4547,Female,Black,20-29,No
-2013,Female,Middle Eastern,10-19,Yes
-4940,Female,White,20-29,No
-10872,Male,East Asian,more than 70,Yes
-9998,Male,Latino_Hispanic,40-49,No
-7190,Male,White,40-49,Yes
-1873,Male,Latino_Hispanic,20-29,No
-294,Male,Indian,20-29,No
-7448,Male,East Asian,20-29,No
-7093,Male,Middle Eastern,20-29,No
-4167,Male,Latino_Hispanic,20-29,No
-5703,Female,East Asian,20-29,No
-1633,Male,Black,3-9,No
-2890,Male,Black,40-49,No
-5241,Female,Middle Eastern,50-59,No
-2500,Female,Latino_Hispanic,10-19,No
-8234,Female,White,40-49,No
-531,Female,Black,30-39,No
-7576,Male,White,40-49,Yes
-3029,Male,Latino_Hispanic,3-9,No
-7921,Female,Middle Eastern,3-9,No
-5989,Male,Middle Eastern,30-39,No
-9780,Male,Indian,50-59,No
-2436,Male,Southeast Asian,3-9,No
-5904,Female,Indian,10-19,No
-8706,Female,East Asian,10-19,No
-4351,Female,Indian,40-49,No
-9470,Female,Indian,30-39,No
-2090,Female,Black,40-49,No
-10773,Female,East Asian,0-2,No
-6370,Female,Southeast Asian,30-39,No
-6254,Female,Black,30-39,No
-6468,Male,Indian,30-39,No
-2869,Male,Black,40-49,No
-10159,Male,White,50-59,No
-8634,Male,Southeast Asian,40-49,No
-10369,Male,Latino_Hispanic,30-39,No
-7602,Male,Middle Eastern,40-49,Yes
-10901,Female,White,20-29,No
-5357,Male,Latino_Hispanic,30-39,No
-1020,Female,Latino_Hispanic,40-49,No
-4617,Male,Latino_Hispanic,20-29,No
-5789,Male,Middle Eastern,20-29,No
-66,Female,White,40-49,No
-496,Female,Middle Eastern,10-19,No
-9973,Male,White,50-59,No
-2560,Female,White,30-39,No
-3458,Female,Southeast Asian,30-39,No
-9920,Female,Middle Eastern,20-29,Yes
-8510,Female,Latino_Hispanic,40-49,No
-9714,Male,Indian,60-69,Yes
-6763,Male,Black,30-39,No
-2181,Male,Latino_Hispanic,40-49,No
-3377,Female,Latino_Hispanic,30-39,No
-4856,Female,Southeast Asian,50-59,Yes
-2582,Female,Middle Eastern,10-19,No
-4951,Male,East Asian,3-9,No
-445,Male,Black,30-39,Yes
-3624,Female,Black,3-9,No
-5551,Male,Black,30-39,No
-7670,Female,East Asian,20-29,No
-8625,Female,Latino_Hispanic,40-49,No
-6709,Male,Black,3-9,No
-7316,Female,Middle Eastern,20-29,No
-4394,Male,East Asian,30-39,Yes
-303,Male,Southeast Asian,10-19,No
-10932,Male,Black,3-9,No
-1367,Male,Southeast Asian,30-39,Yes
-8711,Female,Middle Eastern,30-39,No
-3065,Female,Middle Eastern,40-49,No
-2569,Female,Black,20-29,No
-4202,Female,Southeast Asian,3-9,No
-1872,Female,East Asian,20-29,No
-3889,Male,Middle Eastern,30-39,Yes
-7083,Male,Indian,30-39,No
-4896,Female,Southeast Asian,20-29,No
-6475,Male,White,30-39,No
-9219,Female,Indian,40-49,No
-812,Female,Southeast Asian,20-29,No
-46,Male,White,40-49,Yes
-3946,Female,Southeast Asian,20-29,No
-4381,Female,Middle Eastern,20-29,No
-6438,Male,Black,10-19,No
-967,Female,White,20-29,Yes
-2230,Male,Black,30-39,No
-273,Male,Indian,10-19,Yes
-10769,Female,Latino_Hispanic,10-19,No
-9958,Male,White,40-49,No
-6111,Female,Latino_Hispanic,40-49,No
-7657,Male,Indian,30-39,No
-6035,Male,Black,20-29,No
-8195,Male,Black,20-29,No
-7785,Male,Southeast Asian,20-29,No
-3349,Male,Latino_Hispanic,40-49,No
-5463,Female,Middle Eastern,20-29,No
-3523,Female,Black,20-29,No
-3416,Female,Southeast Asian,40-49,Yes
-2469,Male,Indian,3-9,No
-6176,Male,Middle Eastern,30-39,No
-9675,Female,Latino_Hispanic,10-19,No
-8219,Female,White,30-39,No
-5223,Male,Middle Eastern,40-49,No
-10298,Male,Southeast Asian,30-39,No
-437,Female,Middle Eastern,30-39,Yes
-2648,Female,Southeast Asian,40-49,No
-5826,Female,Indian,20-29,No
-96,Female,Indian,50-59,No
-10015,Male,Indian,40-49,No
-1182,Male,Southeast Asian,50-59,No
-1121,Male,East Asian,20-29,Yes
-5810,Female,White,3-9,No
-6747,Female,East Asian,30-39,No
-4276,Male,Southeast Asian,30-39,No
-5654,Male,Latino_Hispanic,20-29,No
-1417,Female,Indian,20-29,No
-7626,Male,White,20-29,No
-119,Female,Black,20-29,No
-324,Female,Latino_Hispanic,3-9,No
-10740,Female,East Asian,20-29,No
-6850,Male,East Asian,50-59,Yes
-543,Male,Middle Eastern,0-2,No
-2466,Male,Southeast Asian,10-19,No
-7260,Male,East Asian,3-9,No
+66774,Female,Indian,30-39,No
+69350,Male,Southeast Asian,40-49,No
+68570,Male,Indian,more than 70,No
+65939,Female,White,20-29,No
+68349,Female,East Asian,40-49,No
+69220,Female,Indian,30-39,No
+73257,Male,Black,30-39,No
+68652,Female,East Asian,40-49,Yes
+71449,Female,East Asian,30-39,No
+66398,Male,East Asian,30-39,Yes
+65857,Female,White,50-59,No
+66750,Male,East Asian,more than 70,No
+67890,Male,White,20-29,No
+73091,Female,Middle Eastern,30-39,No
+69234,Female,Latino_Hispanic,30-39,Yes
+69340,Male,Latino_Hispanic,50-59,No
+65569,Female,Latino_Hispanic,20-29,No
+72420,Male,Latino_Hispanic,30-39,No
+73508,Male,Black,30-39,No
+66635,Male,Southeast Asian,20-29,Yes
+71608,Male,Black,40-49,No
+66323,Male,Middle Eastern,30-39,No
+66003,Male,Middle Eastern,30-39,No
+67204,Female,East Asian,20-29,No
+70923,Female,Latino_Hispanic,20-29,No
+68175,Female,Latino_Hispanic,30-39,No
+69957,Male,Southeast Asian,30-39,No
+69614,Female,Latino_Hispanic,30-39,No
+70987,Male,Latino_Hispanic,50-59,No
+69793,Male,Black,20-29,No
+70959,Male,Indian,20-29,Yes
+71927,Female,Middle Eastern,more than 70,No
+66839,Male,White,30-39,No
+65875,Male,Black,30-39,Yes
+65506,Male,East Asian,40-49,No
+66972,Female,White,40-49,Yes
+67477,Female,Indian,20-29,No
+72308,Male,Middle Eastern,30-39,Yes
+70468,Female,White,20-29,No
+72050,Female,East Asian,30-39,No
+65573,Female,Southeast Asian,30-39,No
+72931,Female,Black,30-39,No
+65947,Female,Black,20-29,No
+67371,Male,White,20-29,No
+70958,Male,Middle Eastern,20-29,No
+70528,Male,Middle Eastern,30-39,No
+67902,Male,Middle Eastern,50-59,No
+68786,Female,East Asian,20-29,No
+68612,Male,East Asian,30-39,Yes
+72614,Female,Black,20-29,No
+68037,Female,White,20-29,No
+71210,Female,Middle Eastern,20-29,No
+72269,Male,Black,40-49,Yes
+73321,Male,Indian,30-39,No
+72551,Female,Indian,50-59,No
+72286,Male,Middle Eastern,30-39,No
+65597,Male,Middle Eastern,50-59,Yes
+71337,Female,Black,50-59,No
+70858,Male,Black,30-39,No
+69355,Male,Middle Eastern,30-39,No
+68324,Male,East Asian,30-39,No
+68096,Male,White,30-39,No
+72457,Male,White,20-29,No
+73367,Male,Black,40-49,No
+72167,Female,Black,20-29,No
+65513,Female,East Asian,50-59,No
+72487,Female,East Asian,20-29,No
+65709,Male,Middle Eastern,20-29,No
+66963,Female,White,20-29,No
+72704,Male,Southeast Asian,20-29,No
+68156,Female,Middle Eastern,30-39,No
+68046,Male,Latino_Hispanic,40-49,No
+72227,Female,Black,20-29,No
+71948,Male,Black,40-49,No
+67838,Male,Middle Eastern,40-49,No
+69342,Male,White,20-29,No
+65882,Female,White,30-39,No
+73124,Female,Black,40-49,Yes
+66371,Female,Middle Eastern,20-29,No
+71969,Female,Black,20-29,No
+73489,Female,Black,60-69,No
+68857,Female,Latino_Hispanic,30-39,No
+66236,Male,Indian,20-29,No
+72486,Female,East Asian,20-29,No
+69337,Male,East Asian,20-29,No
+69808,Female,Southeast Asian,20-29,No
+65719,Female,Southeast Asian,50-59,Yes
+72128,Female,Indian,50-59,No
+66012,Female,Southeast Asian,20-29,No
+67937,Female,White,50-59,No
+71143,Female,Black,20-29,No
+73160,Male,White,40-49,No
+65716,Male,East Asian,20-29,No
+70124,Male,Southeast Asian,20-29,Yes
+72089,Female,Black,30-39,No
+67911,Female,Indian,30-39,No
+68709,Male,White,30-39,No
+67285,Male,East Asian,20-29,No
+68569,Male,East Asian,30-39,No
+67146,Male,Middle Eastern,40-49,No
+73413,Female,Middle Eastern,20-29,No
+71996,Female,Indian,20-29,No
+73518,Female,Southeast Asian,20-29,No
+72537,Male,Latino_Hispanic,50-59,Yes
+71021,Male,Indian,50-59,No
+65901,Male,Middle Eastern,20-29,No
+65443,Female,Latino_Hispanic,20-29,No
+66253,Female,Latino_Hispanic,30-39,No
+70689,Female,Latino_Hispanic,20-29,No
+70167,Male,Indian,40-49,No
+68413,Male,Indian,40-49,No
+70870,Female,Latino_Hispanic,20-29,No
+73649,Male,East Asian,60-69,No
+68791,Male,Latino_Hispanic,20-29,No
+66699,Male,Latino_Hispanic,20-29,No
+66079,Male,Southeast Asian,30-39,Yes
+72509,Male,Southeast Asian,30-39,No
+69528,Female,White,30-39,No
+66053,Female,Southeast Asian,20-29,No
+66924,Male,Southeast Asian,30-39,No
+71771,Male,Latino_Hispanic,40-49,No
+72449,Female,Southeast Asian,20-29,No
+66881,Male,Black,20-29,No
+66152,Female,Latino_Hispanic,20-29,No
+66037,Male,Middle Eastern,20-29,Yes
+71463,Male,Indian,40-49,No
+72124,Male,Indian,50-59,Yes
+68916,Female,Black,30-39,No
+70253,Male,East Asian,30-39,Yes
+72831,Female,East Asian,20-29,Yes
+65940,Male,White,30-39,No
+71928,Female,White,50-59,No
+65584,Male,Indian,20-29,Yes
+69003,Male,Latino_Hispanic,40-49,No
+69618,Female,Middle Eastern,20-29,No
+73565,Male,White,30-39,No
+73640,Female,East Asian,20-29,No
+68451,Male,Latino_Hispanic,20-29,No
+70951,Male,Indian,30-39,Yes
+70997,Female,Latino_Hispanic,50-59,No
+71169,Female,Indian,20-29,No
+72877,Female,Black,30-39,No
+73410,Male,East Asian,30-39,No
+68094,Female,East Asian,30-39,Yes
+69530,Female,Indian,50-59,Yes
+72425,Female,Southeast Asian,20-29,Yes
+71597,Male,East Asian,20-29,Yes
+73412,Male,Southeast Asian,50-59,No
+68540,Female,East Asian,30-39,No
+65786,Female,Black,20-29,No
+71652,Male,Black,30-39,No
+70410,Female,Indian,40-49,Yes
+67344,Female,East Asian,20-29,No
+70387,Male,White,20-29,No
+72358,Female,Southeast Asian,20-29,No
+72685,Female,East Asian,20-29,No
+71646,Male,Southeast Asian,40-49,No
+71701,Male,Latino_Hispanic,30-39,No
+71105,Male,Latino_Hispanic,30-39,No
+66223,Female,White,30-39,No
+70372,Male,Middle Eastern,30-39,No
+72032,Female,Southeast Asian,30-39,Yes
+65942,Male,Middle Eastern,20-29,No
+66553,Female,Southeast Asian,30-39,No
+73626,Male,Middle Eastern,20-29,No
+69029,Male,Middle Eastern,50-59,Yes
+72049,Female,Indian,20-29,No
+66418,Male,Black,40-49,No
+66808,Female,Black,30-39,No
+66812,Female,Middle Eastern,20-29,No
+68512,Male,East Asian,40-49,No
+72692,Female,Middle Eastern,20-29,No
+68679,Female,Southeast Asian,60-69,Yes
+69865,Male,Middle Eastern,30-39,Yes
+69716,Male,White,30-39,Yes
+67396,Male,East Asian,20-29,Yes
+70990,Female,White,30-39,No
+73560,Male,White,50-59,Yes
+69092,Male,White,50-59,Unsure
+67301,Female,Southeast Asian,20-29,No
+71397,Male,Latino_Hispanic,30-39,No
+68749,Female,White,20-29,No
+65959,Female,Middle Eastern,40-49,No
+71316,Male,Indian,40-49,No
+72602,Female,White,20-29,No
+71174,Female,Indian,20-29,Yes
+66121,Female,Latino_Hispanic,20-29,No
+65563,Male,East Asian,30-39,No
+73472,Male,Southeast Asian,20-29,No
+71814,Male,Middle Eastern,30-39,No
+68435,Female,Indian,20-29,No
+72717,Male,White,20-29,No
+66519,Female,Southeast Asian,20-29,No
+68667,Female,Indian,40-49,No
+67107,Male,White,50-59,No
+70665,Male,Black,20-29,No
+65548,Female,White,20-29,Yes
+70399,Female,East Asian,40-49,No
+73108,Female,East Asian,20-29,No
+68335,Female,Middle Eastern,20-29,No
+73218,Male,Indian,30-39,Yes
+70354,Female,Black,20-29,No
+69463,Male,Black,20-29,No
+72024,Female,Black,20-29,No
+73103,Male,Indian,30-39,No
+71873,Female,Indian,20-29,No
+65930,Female,Southeast Asian,20-29,No
+71258,Male,Latino_Hispanic,30-39,Yes
+69664,Male,East Asian,20-29,No
+65909,Male,Black,40-49,Yes
+71324,Female,Middle Eastern,30-39,No
+69801,Female,Southeast Asian,20-29,No
+70632,Female,Southeast Asian,20-29,No
+69988,Male,Indian,50-59,Yes
+68398,Male,Black,30-39,No
+73589,Male,White,60-69,No
+72991,Female,Latino_Hispanic,20-29,No
+73200,Male,Middle Eastern,40-49,No
+67695,Female,Middle Eastern,20-29,No
+68832,Female,Black,20-29,No
+69131,Female,White,20-29,No
+73598,Male,East Asian,more than 70,Yes
+72942,Male,Latino_Hispanic,40-49,No
+70838,Male,White,40-49,Yes
+66841,Male,Latino_Hispanic,20-29,No
+65651,Male,Indian,20-29,No
+71030,Male,East Asian,20-29,No
+70758,Male,Middle Eastern,20-29,No
+68558,Male,Latino_Hispanic,20-29,No
+69698,Female,East Asian,20-29,No
+67594,Male,Black,40-49,No
+69354,Female,Middle Eastern,50-59,No
+71618,Female,White,40-49,No
+65811,Female,Black,30-39,No
+71129,Male,White,40-49,Yes
+69924,Male,Middle Eastern,30-39,No
+72781,Male,Indian,50-59,No
+68695,Female,Indian,40-49,No
+72544,Female,Indian,30-39,No
+67001,Female,Black,40-49,No
+70206,Female,Southeast Asian,30-39,No
+70130,Female,Black,30-39,No
+70279,Male,Indian,30-39,No
+67580,Male,Black,40-49,No
+73069,Male,White,50-59,No
+71924,Male,Southeast Asian,40-49,No
+73226,Male,Latino_Hispanic,30-39,No
+71150,Male,Middle Eastern,40-49,Yes
+73620,Female,White,20-29,No
+69448,Male,Latino_Hispanic,30-39,No
+66190,Female,Latino_Hispanic,40-49,No
+68886,Male,Latino_Hispanic,20-29,No
+69764,Male,Middle Eastern,20-29,No
+65492,Female,White,40-49,No
+72926,Male,White,50-59,No
+67342,Female,White,30-39,No
+68021,Female,Southeast Asian,30-39,No
+72882,Female,Middle Eastern,20-29,Yes
+71827,Female,Latino_Hispanic,40-49,No
+72731,Male,Indian,60-69,Yes
+70495,Male,Black,30-39,No
+67062,Male,Latino_Hispanic,40-49,No
+67958,Female,Latino_Hispanic,30-39,No
+69071,Female,Southeast Asian,50-59,Yes
+65753,Male,Black,30-39,Yes
+69585,Male,Black,30-39,No
+71204,Female,East Asian,20-29,No
+71917,Female,Latino_Hispanic,40-49,No
+70932,Female,Middle Eastern,20-29,No
+68724,Male,East Asian,30-39,Yes
+66459,Male,Southeast Asian,30-39,Yes
+71982,Female,Middle Eastern,30-39,No
+67726,Female,Middle Eastern,40-49,No
+67349,Female,Black,20-29,No
+66840,Female,East Asian,20-29,No
+68333,Male,Middle Eastern,30-39,Yes
+70749,Male,Indian,30-39,No
+69101,Female,Southeast Asian,20-29,No
+70286,Male,White,30-39,No
+72362,Female,Indian,40-49,No
+66031,Female,Southeast Asian,20-29,No
+65478,Male,White,40-49,Yes
+68376,Female,Southeast Asian,20-29,No
+68715,Female,Middle Eastern,20-29,No
+66150,Female,White,20-29,Yes
+67097,Male,Black,30-39,No
+72913,Male,White,40-49,No
+70016,Female,Latino_Hispanic,40-49,No
+71194,Male,Indian,30-39,No
+69962,Male,Black,20-29,No
+71589,Male,Black,20-29,No
+71284,Male,Southeast Asian,20-29,No
+67938,Male,Latino_Hispanic,40-49,No
+69524,Female,Middle Eastern,20-29,No
+68066,Female,Black,20-29,No
+67988,Female,Southeast Asian,40-49,Yes
+70068,Male,Middle Eastern,30-39,No
+71605,Female,White,30-39,No
+69341,Male,Middle Eastern,40-49,No
+73177,Male,Southeast Asian,30-39,No
+65745,Female,Middle Eastern,30-39,Yes
+67414,Female,Southeast Asian,40-49,No
+69792,Female,Indian,20-29,No
+65515,Female,Indian,50-59,No
+72956,Male,Indian,40-49,No
+66317,Male,Southeast Asian,50-59,No
+66271,Male,East Asian,20-29,Yes
+70483,Female,East Asian,30-39,No
+68638,Male,Southeast Asian,30-39,No
+69657,Male,Latino_Hispanic,20-29,No
+66497,Female,Indian,20-29,No
+71171,Male,White,20-29,No
+65530,Female,Black,20-29,No
+73500,Female,East Asian,20-29,No
+70564,Male,East Asian,50-59,Yes
